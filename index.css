@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Dancing Script';
+}
+
+.sub-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.main {
+    position: absolute;
+    width: 140vmax;
+    height: 140vmax;
+}
+
+.main>.item {
+    position: absolute;
+    border-radius: 10px;
+    transition: 400ms ease-in-out;
+}
+
+.main>.item>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    opacity: 0;
+    scale: 1.01;
+    transition: 400ms ease-in-out;
+}
+
+.main>.item:hover {
+    transform: scale(1.02);
+}
+
+.main>.item>img:hover {
+    transform: scale(1.02);
+    opacity: 1;
+}
+
+.main>.item:nth-child(1) {
+    left: 48%;
+    top: 57%;
+    width: 10%;
+    height: 15%;
+    background-color: #ff7676;
+}
+
+.main>.item:nth-child(2) {
+    left: 15%;
+    top: 10%;
+    width: 20%;
+    height: 14%;
+    background-color: #f8d078;
+}
+
+.main>.item:nth-child(3) {
+    left: 4%;
+    top: 45%;
+    width: 13%;
+    height: 20%;
+    background-color: #ac80ff;
+}
+
+.main>.item:nth-child(4) {
+    left: 72%;
+    top: 61%;
+    width: 13%;
+    height: 13%;
+    background-color: #ff9cf7;
+}
+
+.main>.item:nth-child(5) {
+    left: 68%;
+    top: 11%;
+    width: 18%;
+    height: 18%;
+    background-color: #4bee81;
+}
+
+.main>.item:nth-child(6) {
+    left: 6%;
+    top: 78%;
+    width: 12%;
+    height: 12%;
+    background-color: #8dfbff;
+}
+
+.main>.item:nth-child(7) {
+    left: 25%;
+    top: 62%;
+    width: 13%;
+    height: 18%;
+    background-color: #fffd71;
+}
+
+.main>.item:nth-child(8) {
+    left: 54%;
+    top: 76%;
+    width: 15%;
+    height: 15%;
+    background-color: #a2a4ff;
+}
+
+.main>.item:nth-child(9) {
+    left: 83%;
+    top: 34%;
+    width: 12%;
+    height: 18%;
+    background-color: #ff2d2d;
+}
+
+.main>.item:nth-child(10) {
+    left: 86%;
+    top: 77%;
+    width: 10%;
+    height: 15%;
+    background-color: #744ffa;
+}
+
+.main>.item:nth-child(11) {
+    left: 38%;
+    top: 33%;
+    width: 19%;
+    height: 12%;
+    background-color: #74a4ff;
+}
