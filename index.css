@@ -1,7 +1,6 @@
 body {
     margin: 0;
     height: 100vh;
-    overflow: hidden;
     font-family: 'Dancing Script';
 }
 
@@ -14,10 +13,16 @@ body {
     font-weight: bold;
 }
 
-.main {
-    position: absolute;
+.container {
+    overflow: hidden;
     width: 140vmax;
     height: 140vmax;
+    position: absolute;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
 }
 
 .main>.item {
@@ -40,10 +45,10 @@ body {
     transform: scale(1.02);
 }
 
-.main>.item>img:hover {
+/* .main>.item>img:hover {
     transform: scale(1.02);
     opacity: 1;
-}
+} */
 
 .main>.item:nth-child(1) {
     left: 48%;
